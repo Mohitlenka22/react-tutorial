@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Todos from './Components/Todos';
+import UseMemo from './Components/UseMemo';
+import Useref from './Components/Useref';
+// import { Counter } from './Components/Counter';
+// import Counter2 from './Components/Counter2';
+// import { Effect } from './Components/Effect';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/* <Counter /> */}
+      {/* <Counter2 /> */}
+      {/* <Effect /> */}
+      {/* <Useref /> */}
+      {/* <Todos /> */}
+      <UseMemo />
     </div>
   );
 }
